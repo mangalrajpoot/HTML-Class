@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.menu 
+{
+    background-color: orange;
+    width:100%;
+    padding:20px;
+}
+.menuitems
+{
+    display:inline;
+    position:relative;
+    padding:20px;
+    margin:10px;
+}
+.submenu 
+{
+    width:150px;
+    background-color: indigo;
+    position:absolute;
+    top:100%;
+    display:none;
+    left:0%;
+
+}
+.submenuitems
+{
+    color:White;
+    border:1px solid yellow;
+    padding:5px;
+}
+.menuitems:hover .submenu
+{
+    display:block;
+}
+.menuitems:hover 
+{
+    background-color: black;
+    color:white;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+<div class="menuitems">Home</div>
+<div class="menuitems">Services
+<div class="submenu">
+<div class="submenuitems">Web Development</div>
+<div class="submenuitems">GST</div>
+<div class="submenuitems">ITR</div>
+<div class="submenuitems">Loans</div>
+
+
+
+</div>
+
+</div>
+<div class="menuitems">About Us</div>
+<div class="menuitems">Contact Us</div>
+    </div>
+    
+</body>
+</html>
